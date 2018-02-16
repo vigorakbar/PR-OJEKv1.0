@@ -1,0 +1,180 @@
+.mainHeader {
+	width: 500px;
+	height: 50px;
+}
+
+.header1 {
+		float: left;
+}
+
+.header2 {
+		float: right;
+		font-family: "Trebuchet MS";
+}
+
+.title {
+	font-family: "Hoefler Text";
+	font-size: 31px;
+	font-weight: bold;
+	color: black;
+	height: 27px;
+}
+
+.title.red {
+	color: #cb0a1d;
+}
+
+.title.green {
+	color : #066422;
+}
+
+.subtitle {
+	color: #4f9500;
+	font-size: 16px;
+	font-family: "Hoefler Text"
+}
+
+.username {
+	padding-top: 10px;
+}
+
+.username.bold {
+	font-weight: bold;
+}
+
+.logout {
+	text-align: right;
+	text-decoration: underline;
+	color: blue;
+}
+
+h1 {
+	color: #494949;
+	font-size: 35px;
+	font-family: "Trebuchet MS";
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.contentBox {
+    width: 550px;
+    height: 480px;
+    margin: 0 auto;
+    background: white;
+    font-family: "Trebuchet MS";
+}
+
+.menu {
+	margin: 20px;
+	width: 165px;
+	height: 45px;
+	display: table-cell;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 45px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.menu:not(:last-child) {
+	border-right : none;
+}
+
+.menu.active {
+	background: #3a563f;
+	border: 1px solid #253828;
+	color: white;	
+}
+
+.submenu {
+	margin: 10px;
+	width: 245px;
+	height: 45px;
+	display: table-cell;
+	border: 0.5px solid black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	float : center;
+}
+
+.submenu:not(:last-child) {
+	border-right : none;
+}
+
+.submenu.active {
+	background: #41e06b;
+}
+
+.listBox {
+	height: auto;
+	width: 500px;
+	margin:40px 20px 20px 20px;
+}
+
+.thumbnail {
+    border: none;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.date {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	margin-left: 15px;	
+}
+
+.name {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.route {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.rating {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.comment {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.buttonHide {
+	background: red;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	height: 20px;
+	width: 50px;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+	float : right; 
+	margin-right: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: inherit;
+}
